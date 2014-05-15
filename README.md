@@ -12,4 +12,5 @@ A collection of samples on using OsmSharp:
 Don't for get to get the submodule containing the test-data:
 
 `git submodule init
+
 `git submodule update
