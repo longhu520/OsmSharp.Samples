@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A8458332-81D7-4171-8FF3-481A7CED215F}</ProjectGuid>
+    <ProjectGuid>{B71F7F12-FBBB-465A-A0A3-B4D01856B56C}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Android.Demo</RootNamespace>
-    <AssemblyName>Android.Demo</AssemblyName>
+    <RootNamespace>Android.Routing.Online</RootNamespace>
+    <AssemblyName>Android.Routing.Online</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -54,28 +54,38 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="OsmSharp, Version=4.2.0.723, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\close\OutputAndroid\OsmSharp.dll</HintPath>
+    <Reference Include="OsmSharp">
+      <HintPath>..\packages\OsmSharp.4.2.0.723\lib\MonoAndroid\OsmSharp.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Android.UI, Version=4.2.0.723, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\close\OutputAndroid\OsmSharp.Android.UI.dll</HintPath>
+    <Reference Include="OsmSharp.Android.UI">
+      <HintPath>..\packages\OsmSharp.4.2.0.723\lib\MonoAndroid\OsmSharp.Android.UI.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Osm, Version=4.2.0.723, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\close\OutputAndroid\OsmSharp.Osm.dll</HintPath>
+    <Reference Include="OsmSharp.Osm">
+      <HintPath>..\packages\OsmSharp.4.2.0.723\lib\MonoAndroid\OsmSharp.Osm.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Routing, Version=4.2.0.723, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\close\OutputAndroid\OsmSharp.Routing.dll</HintPath>
+    <Reference Include="OsmSharp.Routing">
+      <HintPath>..\packages\OsmSharp.4.2.0.723\lib\MonoAndroid\OsmSharp.Routing.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.UI, Version=4.2.0.723, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\close\OutputAndroid\OsmSharp.UI.dll</HintPath>
+    <Reference Include="OsmSharp.Service.Routing.Core">
+      <HintPath>..\packages\OsmSharp.Service.Routing.0.9.1.56\lib\portable-net40+sl4+win8+wp7\net45\OsmSharp.Service.Routing.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OsmSharp.UI">
+      <HintPath>..\packages\OsmSharp.4.2.0.723\lib\MonoAndroid\OsmSharp.UI.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
       <HintPath>..\packages\protobuf-net.2.0.0.668\lib\portable-sl4+net40+wp7+windows8\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Client">
+      <HintPath>..\packages\ServiceStack.Client.Pcl.4.0.21\lib\MonoAndroid\ServiceStack.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Interfaces.Pcl.4.0.21\lib\portable-wp80+sl5+net40+win8+monotouch+monoandroid\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Pcl.Android">
+      <HintPath>..\packages\ServiceStack.Client.Pcl.4.0.21\lib\MonoAndroid\ServiceStack.Pcl.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text.Pcl.4.0.21\lib\portable-net45+win8+monotouch+monoandroid\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,20 +96,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="MBTilesActivity.cs" />
+    <Compile Include="Activity1.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TilesActivity.cs" />
-    <Compile Include="VectorActivity.cs" />
+    <Compile Include="Router.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\OsmSharpTestFiles\mbtiles\kempen.mbtiles">
-      <Link>kempen.mbtiles</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\..\OsmSharpTestFiles\map\default.map">
-      <Link>default.map</Link>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />

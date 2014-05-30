@@ -41,7 +41,9 @@ namespace Android.Demo
             map.AddLayer(new LayerScene(Scene2D.Deserialize(sceneStream, true)));
 
             // define the mapview.
-            _mapView = new MapView(this, new MapViewSurface(this));
+            var mapViewSurface = new MapViewSurface(this);
+            mapViewSurface.MapScaleFactor = 2;
+            _mapView = new MapView(this, mapViewSurface);
             _mapView.Map = map;
             _mapView.MapMaxZoomLevel = 17; // limit min/max zoom, the vector data in this sample covers only a small area.
             _mapView.MapMinZoomLevel = 12;
@@ -61,9 +63,9 @@ namespace Android.Demo
             // dispose of all resources.
             // the mapview is completely destroyed in this sample, read about the Android Activity Lifecycle here:
             // http://docs.xamarin.com/guides/android/application_fundamentals/activity_lifecycle/
-            //_mapView.Map.Close();
+            _mapView.Map.Close();
 
-            //_mapView.Close();
+            _mapView.Close();
             _mapView.Dispose();
             _mapView = null;
         }

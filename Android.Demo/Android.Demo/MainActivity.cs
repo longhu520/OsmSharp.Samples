@@ -51,8 +51,6 @@ namespace Android.Demo
             };
             layout.AddView(vectorActivityButton);
 
-
-
             SetContentView(layout);
         }
     }

@@ -37,10 +37,12 @@ namespace Android.Demo
             // add tile Layer.
             // WARNING: Always look at usage policies!
             // WARNING: Don't use my tiles, it's a free account and will shutdown when overused!
-            map.AddLayer(new LayerTile("http://a.tiles.mapbox.com/v3/osmsharp.i8ckml0l/{0}/{1}/{2}.png"));
+            map.AddLayer(new LayerTile("http://a.tiles.mapbox.com/v3/osmsharp.i8ckml0l/{0}/{1}/{2}.png", 160));
 
             // define the mapview.
-            _mapView = new MapView(this, new MapViewSurface(this));
+            var mapViewSurface = new MapViewSurface(this);
+            mapViewSurface.MapScaleFactor = 2;
+            _mapView = new MapView(this, mapViewSurface);
             _mapView.Map = map;
             _mapView.MapMaxZoomLevel = 18; // limit min/max zoom because MBTiles sample only contains a small portion of a map.
             _mapView.MapMinZoomLevel = 0;
@@ -57,12 +59,14 @@ namespace Android.Demo
         {
             base.OnDestroy();
 
+            OsmSharp.Logging.Log.TraceEvent("TilesActivity", OsmSharp.Logging.TraceEventType.Information, _mapView.CurrentView.ToString());
+
             // dispose of all resources.
             // the mapview is completely destroyed in this sample, read about the Android Activity Lifecycle here:
             // http://docs.xamarin.com/guides/android/application_fundamentals/activity_lifecycle/
-            //_mapView.Map.Close();
+            _mapView.Map.Close();
 
-            //_mapView.Close();
+            _mapView.Close();
             _mapView.Dispose();
         }
     }
