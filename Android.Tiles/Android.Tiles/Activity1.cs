@@ -42,7 +42,7 @@ namespace Android.Tiles
             // define the mapview.
             _mapView = new MapView(this, new MapViewSurface(this));
             _mapView.Map = map;
-            _mapView.MapMaxZoomLevel = 18; // limit min/max zoom because MBTiles sample only contains a small portion of a map.
+            _mapView.MapMaxZoomLevel = 18; // limit min/max zoom.
             _mapView.MapMinZoomLevel = 0;
             _mapView.MapTilt = 0;
             _mapView.MapCenter = new GeoCoordinate(21.38, -157.782);
