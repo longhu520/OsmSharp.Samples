@@ -54,20 +54,25 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="OsmSharp">
-      <HintPath>..\packages\OsmSharp.4.2.0.815\lib\MonoAndroid\OsmSharp.dll</HintPath>
+    <Reference Include="OsmSharp, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Android.UI">
-      <HintPath>..\packages\OsmSharp.4.2.0.815\lib\MonoAndroid\OsmSharp.Android.UI.dll</HintPath>
+    <Reference Include="OsmSharp.Android.UI, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.Android.UI.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Osm">
-      <HintPath>..\packages\OsmSharp.4.2.0.815\lib\MonoAndroid\OsmSharp.Osm.dll</HintPath>
+    <Reference Include="OsmSharp.Osm, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.Osm.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Routing">
-      <HintPath>..\packages\OsmSharp.4.2.0.815\lib\MonoAndroid\OsmSharp.Routing.dll</HintPath>
+    <Reference Include="OsmSharp.Routing, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.Routing.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.UI">
-      <HintPath>..\packages\OsmSharp.4.2.0.815\lib\MonoAndroid\OsmSharp.UI.dll</HintPath>
+    <Reference Include="OsmSharp.UI, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.UI.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
       <HintPath>..\packages\protobuf-net.2.0.0.668\lib\portable-sl4+net40+wp7+windows8\protobuf-net.dll</HintPath>
