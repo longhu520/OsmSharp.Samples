@@ -1,22 +1,30 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.MBTiles", "iOS.MBTiles\iOS.MBTiles.csproj", "{25038867-6819-4B7E-AB03-8A91968BCCEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|iPhoneSimulator = Debug|iPhoneSimulator
-		Release|iPhoneSimulator = Release|iPhoneSimulator
-		Debug|iPhone = Debug|iPhone
-		Release|iPhone = Release|iPhone
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
 		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{25038867-6819-4B7E-AB03-8A91968BCCEB}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{25038867-6819-4B7E-AB03-8A91968BCCEB}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Debug|iPhone.Build.0 = Debug|iPhone
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -25,6 +33,9 @@ Global
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Release|iPhone.Build.0 = Release|iPhone
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{25038867-6819-4B7E-AB03-8A91968BCCEB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = iOS.MBTiles\iOS.MBTiles.csproj

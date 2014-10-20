@@ -54,25 +54,25 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="OsmSharp, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OsmSharp, Version=4.3.0.876, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.dll</HintPath>
+      <HintPath>..\packages\OsmSharp.4.3.0.876-beta\lib\MonoAndroid\OsmSharp.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Android.UI, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OsmSharp.Android.UI, Version=4.3.0.876, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.Android.UI.dll</HintPath>
+      <HintPath>..\packages\OsmSharp.4.3.0.876-beta\lib\MonoAndroid\OsmSharp.Android.UI.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Osm, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OsmSharp.Osm, Version=4.3.0.876, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.Osm.dll</HintPath>
+      <HintPath>..\packages\OsmSharp.4.3.0.876-beta\lib\MonoAndroid\OsmSharp.Osm.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.Routing, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OsmSharp.Routing, Version=4.3.0.876, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.Routing.dll</HintPath>
+      <HintPath>..\packages\OsmSharp.4.3.0.876-beta\lib\MonoAndroid\OsmSharp.Routing.dll</HintPath>
     </Reference>
-    <Reference Include="OsmSharp.UI, Version=4.2.0.820, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OsmSharp.UI, Version=4.3.0.876, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\OsmSharp.4.2.0.820-beta\lib\MonoAndroid\OsmSharp.UI.dll</HintPath>
+      <HintPath>..\packages\OsmSharp.4.3.0.876-beta\lib\MonoAndroid\OsmSharp.UI.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
       <HintPath>..\packages\protobuf-net.2.0.0.668\lib\portable-sl4+net40+wp7+windows8\protobuf-net.dll</HintPath>

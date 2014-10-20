@@ -1,22 +1,30 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.Vectors", "iOS.Vectors\iOS.Vectors.csproj", "{85F9194B-7E16-47BF-A3E7-7BCE3830F894}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|iPhoneSimulator = Debug|iPhoneSimulator
-		Release|iPhoneSimulator = Release|iPhoneSimulator
-		Debug|iPhone = Debug|iPhone
-		Release|iPhone = Release|iPhone
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
 		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Debug|iPhone.Build.0 = Debug|iPhone
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -25,6 +33,9 @@ Global
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Release|iPhone.Build.0 = Release|iPhone
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{85F9194B-7E16-47BF-A3E7-7BCE3830F894}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = iOS.Vectors\iOS.Vectors.csproj
